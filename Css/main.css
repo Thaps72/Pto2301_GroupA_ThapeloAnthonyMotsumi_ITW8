@@ -1,0 +1,326 @@
+/*-default-*/
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/*-header-styles*/
+.header{
+   background-color: #37859F;
+   width: 100%;
+   padding: 10px;
+}
+
+.header img{
+    width: 10%;
+    border-radius: 50%;
+}
+
+.header p{
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;  
+    font-size: 16px;
+}
+
+/*-socialslink-styles*/
+.social-links{
+padding: 10px;
+width: 100%;
+background-color: #37859F;
+}
+
+/*-socialslink-footer-styles*/
+.right-footer,.social-icons li ,a{
+margin: 3px;
+}
+
+/*-socialslink-footer-styles*/
+
+.fa-regular,.fa-brands, .fa-solid {
+    color:#DCEBF1;
+    
+}
+
+/*-left-colum-styles*/
+.container{
+display: flex;
+}
+
+
+.left{
+    width:70%;
+    padding: 10px;
+}
+
+
+.right{
+    width:30%;
+    padding: 10px;
+}
+
+
+.work-1,h1{
+    border-bottom: 5px solid #ADC5CF;
+    padding: 3px;
+    width: 16%;
+}
+
+h2{
+    font-size: 15px;
+}
+
+.FrontEnd-developer{
+padding-top: 10px;
+}
+
+.FrontEnd-developer, p{
+    margin-top: 3px;
+    
+}
+
+.work-2,h1{
+    padding:3px;
+    margin-top: 10px;
+}
+
+
+
+/*-right-colum-styles*/
+.study{
+    padding: 3px;
+}
+
+h2{
+    margin-top: 3px;
+}
+
+.skills{
+margin-top: 5px;
+}
+
+h3{
+    border-bottom: 5px solid #ADC5CF;
+    width: 30%;
+    color: #37859F;
+    font-weight: bolder;
+}
+
+.skills, ul{
+list-style-type: none;
+padding-top: 3px;
+}
+
+/*-my-form-styles*/
+form{
+    padding: 20px;
+    border-radius: 5px;
+    /*background-color: #adc5cfc0;*/
+    
+   
+}
+
+h6{
+    font-size: 20px;  
+}
+
+input[type=text], select, textarea{
+    width: 20%;
+    border-radius: 3px;
+    border: 1px solid #ADC5CF;
+    padding: 10px;
+    margin-top: 3px;
+    resize: vertical;
+    display: inline-block;
+
+}
+
+input[type=submit]{
+    background-color: #37859F;
+    color: #000;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    
+   
+}
+
+/*-my-footer-styles*/
+footer{
+    background-color:  #37859F;
+    width: 100%;
+    height:auto;
+    margin-top: 3px;
+    padding-top: 4px;
+    padding-left: 7px;
+}
+
+
+.footer-container{
+display: flex;
+}
+
+
+.left-footer{
+    width: 70%;
+    padding: 10px;
+}
+
+.right-footer{
+width: 30%;
+padding: 10px;
+}
+
+.socials-icons{
+    display: flex;
+    align-items: center;
+}
+
+/*-my-animation-styles*/
+.skills-animation{
+padding: 8px;
+list-style-type: none;
+width: 400px;
+box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+ h5{
+    text-align: center;
+    color:#adcdd8;
+    font-size: 16px;
+}
+
+.skills-animation li{
+    margin: 5px;
+    padding: 6px;
+}
+
+.skills-animation, .bar{
+    background: #37859F;
+}
+.bar{
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 3);
+    height: 9px;
+    border-radius: 3px;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);   
+}
+
+.bar:hover{
+    box-shadow:0 3px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+}
+
+.bar span{
+    background: linear-gradient(135deg, rgba(236, 0,140,1)0% ,rgba(252,103,103,1)100%);
+   float: left;
+    height: 9px;
+}
+
+.html{
+width: 90%;
+animation: html 3s;
+
+}
+
+
+.Css{
+    width: 70%;
+    animation: html 3s;
+    }
+
+.WordPress{
+        width: 40%;
+        animation: html 3s;
+        }
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes Css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes WordPress{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+/*-adding-background-image-styles*/
+.picture{
+    background-image: url("./Images/002_Small.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+/*-adding-6.2-chanllenge-6.2-styles*/
+.img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    animation: antimate 3s ;
+    background-color: red;
+    }
+    
+    @keyframes antimate {
+        0% {background-color: red;}
+        30%{background-color: green;}
+        40%{background-color: #adcdd8;}
+        75%{ background-color: antiquewhite;}
+    }
+    
+    .img img{
+        width: 60%;
+    }
+
+
+/*-adding-mediaquries-smaller-600px--styles*/
+@media only screen and (min-width:600px){
+    .header{ 
+        width: 150%;
+    }
+  }  
+
+  .header img{ 
+    width: 150px;
+}
+.header,h1{
+ font-size: medium;
+}
+
+.header,.title p{
+    display: block;
+    width: 97%;
+}
+
+
+.container{
+    display: inline;
+}
+
+form,.img,.picture{
+    display: none;
+}
+}  
+
+    
