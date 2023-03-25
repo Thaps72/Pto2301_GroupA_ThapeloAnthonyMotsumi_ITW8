@@ -330,4 +330,26 @@ form,.img,.picture{
 }
 
 
+/*-adding-mediaquries-tablets-7680px--styles*/
     
+@media only screen and (min-width:768px){
+     .fa-regular, .fa-brands,.fa-solid,.header h1{
+        color: rgba(252,103,103,1);
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    /*.header h1{
+display: inline-block;
+    }
+    */
+
+    .skills{
+        display: inline-block;
+    }
+
+    .header, footer{
+width: 100%;
+    }
+}
+
