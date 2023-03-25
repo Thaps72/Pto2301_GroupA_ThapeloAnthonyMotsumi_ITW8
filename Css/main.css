@@ -330,7 +330,7 @@ form,.img,.picture{
 }
 
 
-/*-adding-mediaquries-tablets-7680px--styles*/
+/*-adding-mediaquries-tablets-768px--styles*/
     
 @media only screen and (min-width:768px){
      .fa-regular, .fa-brands,.fa-solid,.header h1{
@@ -353,3 +353,10 @@ width: 100%;
     }
 }
 
+/*-adding-mediaquries-desktops-992px--styles*/
+@media only screen and (min-width:992px){
+    .fa-regular, .fa-brands,.fa-solid,.header h1{
+        color:#adcdd8;
+        font-size: 20px;
+    }
+}
