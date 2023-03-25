@@ -313,14 +313,21 @@ animation: html 3s;
     width: 97%;
 }
 
-
-.container{
-    display: inline;
+.skills{
+    display: none;
 }
 
+.skills-animation,footer{
+width: 100%;
+}
+
+/*.container{
+    display: i;
+}
+*/
 form,.img,.picture{
     display: none;
 }
-}  
+
 
     
